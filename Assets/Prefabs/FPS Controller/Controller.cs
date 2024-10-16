@@ -15,7 +15,8 @@ public class Controller : MonoBehaviour
 
     public Camera MainCamera;
 
-    public Transform CameraPosition;   
+    public Transform CameraPosition;
+
 
     [Header("Control Settings")]
     public float MouseSensitivity = 100.0f;
@@ -163,6 +164,7 @@ public class Controller : MonoBehaviour
                 //play a sound after being in air and landing
             }
         }
+       
 
     }
 }
