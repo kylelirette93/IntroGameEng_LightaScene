@@ -49,14 +49,14 @@ MonoBehaviour:
     value: {fileID: 0}
     defaultState: 4
   ldrLutContribution:
-    overrideState: 0
+    overrideState: 1
     value: 1
   temperature:
     overrideState: 1
-    value: 39
+    value: 64
   tint:
     overrideState: 1
-    value: 15
+    value: 30
   colorFilter:
     overrideState: 1
     value: {r: 1, g: 1, b: 1, a: 1}
@@ -71,19 +71,19 @@ MonoBehaviour:
     value: 0
   postExposure:
     overrideState: 1
-    value: 2.5
+    value: 0.5
   contrast:
     overrideState: 1
-    value: 0
+    value: 1
   mixerRedOutRedIn:
     overrideState: 1
-    value: 98
+    value: 84
   mixerRedOutGreenIn:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -2
   mixerRedOutBlueIn:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 13
   mixerGreenOutRedIn:
     overrideState: 0
     value: 0
@@ -1329,19 +1329,19 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.1
+    value: 0.4
   threshold:
     overrideState: 1
-    value: 0.2
-  softKnee:
-    overrideState: 0
     value: 0.5
+  softKnee:
+    overrideState: 1
+    value: 1
   clamp:
     overrideState: 0
     value: 65472
   diffusion:
     overrideState: 1
-    value: 10
+    value: 7.31
   anamorphicRatio:
     overrideState: 1
     value: -1
@@ -1357,7 +1357,7 @@ MonoBehaviour:
     defaultState: 1
   dirtIntensity:
     overrideState: 1
-    value: 0.5
+    value: 0.01
 --- !u!114 &-6541117056387457690
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1379,7 +1379,7 @@ MonoBehaviour:
     value: {x: 67.54946, y: 82.22844}
   minLuminance:
     overrideState: 1
-    value: -0.2
+    value: -2.3
   maxLuminance:
     overrideState: 1
     value: 9
@@ -1422,10 +1422,10 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.101
+    value: 0.007
   smoothness:
     overrideState: 1
-    value: 0.528
+    value: 0.07
   roundness:
     overrideState: 1
     value: 1
@@ -1456,45 +1456,7 @@ MonoBehaviour:
   - {fileID: -6541117056387457690}
   - {fileID: -6831379985252166373}
   - {fileID: -7384723609224938371}
-  - {fileID: 2683512695002303392}
   - {fileID: -2108684945559075843}
---- !u!114 &2683512695002303392
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a34fa72bd4185749832024e9c8010bf, type: 3}
-  m_Name: ScreenSpaceReflections
-  m_EditorClassIdentifier: 
-  active: 1
-  enabled:
-    overrideState: 1
-    value: 1
-  preset:
-    overrideState: 1
-    value: 2
-  maximumIterationCount:
-    overrideState: 0
-    value: 16
-  resolution:
-    overrideState: 0
-    value: 0
-  thickness:
-    overrideState: 0
-    value: 8
-  maximumMarchDistance:
-    overrideState: 1
-    value: 100
-  distanceFade:
-    overrideState: 0
-    value: 0.5
-  vignette:
-    overrideState: 1
-    value: 0.472
 --- !u!114 &4948066703652091473
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -1521,7 +1483,7 @@ MonoBehaviour:
     overrideState: 0
     value: {r: 0, g: 0, b: 0, a: 1}
   ambientOnly:
-    overrideState: 0
+    overrideState: 1
     value: 1
   noiseFilterTolerance:
     overrideState: 0
@@ -1542,8 +1504,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   radius:
-    overrideState: 0
-    value: 0.25
+    overrideState: 1
+    value: 0.05
   quality:
     overrideState: 1
-    value: 2
+    value: 1
